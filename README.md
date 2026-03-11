@@ -1,12 +1,64 @@
-# Project name: Hosuing Prices Prediction 
+Housing Prices Prediction 🏠
+Overview
+Predicting home prices is an essential problem in the real estate industry, helping buyers, sellers, and investors make informed decisions. This project leverages machine learning algorithms to predict a house’s price based on various features such as location, size, number of bedrooms, and more.
 
-Contacts:
-* Name: Nirja Shah
+Project Goals
+Predict housing prices accurately using a variety of regression models.
 
-Status: In progress 
+Identify key features that most influence property prices.
 
-Project desciption:
-In order to assist buyers, sellers, and investors in making well-informed decisions, predicting home prices is a significant difficulty in the real estate sector. A house's location, size, number of bedrooms, and other pertinent characteristics can all be used to predict its price using machine learning algorithms. 
+Support decision-making for buyers, sellers, and real estate investors.
 
-Related project materials:
-Dataset: HousePricePrediction
+Dataset
+Name: HousePricePrediction
+The dataset includes details about houses such as:
+
+Location
+
+Square footage / area
+
+Number of bedrooms and bathrooms
+
+Year built
+
+Other relevant property characteristics
+
+The dataset is used to train and evaluate different machine learning models.
+
+Methods and Tools
+Programming language: Python
+
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
+Techniques:
+
+Data cleaning and preprocessing
+
+Exploratory Data Analysis (EDA)
+
+Model training and evaluation
+
+Results
+The project compares multiple regression models to find the best-performing one based on metrics such as R² score, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
+
+How to Run
+Clone the repository:
+
+bash
+git clone https://github.com/nirjashah-0-0/Home-Price-Prediction.git
+cd Home-Price-Prediction
+Install dependencies:
+
+bash
+pip install -r requirements.txt
+Run the notebook or script to train and test models.
+
+Future Improvements
+Implement advanced models (e.g., XGBoost, Neural Networks)
+
+Deploy the model as a web app using Streamlit or Flask
+
+Incorporate external data such as market trends or neighborhood scores
+
+Author
+Nirja Shah
